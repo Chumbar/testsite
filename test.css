@@ -1,0 +1,377 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+html {height: 100%}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: ; #69696a;
+  background: #f7f7f7;
+  font-size: 1.2em;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 140%;
+}
+
+header, footer {
+  width:98%;
+  background-color: #f6f9eb;
+  height: 60px;
+  float: left;
+  }
+
+header {
+  border-bottom: 2px solid silver;
+  padding: 1.5%;
+  padding-top: 4%;
+}
+
+#logo {
+  font-size: 3em;
+  font-family: monospace;
+  color: #48a8f6;
+  }
+
+#flag {
+  height: 150px;
+  width: 200px;
+  float: left;
+  display: inline;
+}
+
+.contact {
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.contactvhod {
+  float: right;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+
+.contactreg {
+  float: right;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+
+input[type=text].field {
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  margin-left: 25px;
+}
+input[type=text].field:focus {
+  border: 2px solid #78301b;
+}
+#menu {
+  color: #023e6f;
+  font-family: sans-serif;
+  font-size: 1.4em;
+}
+#menu hr {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#menuHrefs a {
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin-right: 5px;
+  color: #78301b;
+}
+#menuHrefs a:hover {
+background-color: #ececec;
+}
+/* стили для основной части*/
+#wrapper {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  background: #e2fcf8;
+}
+#wrapper #articles {
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+#wrapper #articles article {
+  float: left;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f7f7cd;
+  height: 400px;
+}
+@media (min-width: 900px) {
+#wrapper #articles article {
+  width: 31.3%;
+  margin-right: 2%;
+}}
+@media (max-width: 899px) and (min-width: 700px) {
+#wrapper #articles article {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}}
+@media (max-width: 699px) {
+#wrapper #articles article {
+  width: 100%;
+  margin-bottom: 10px;
+}}
+
+#wrapper #articles article img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid silver;
+  margin-bottom: 10px;
+}
+#wrapper #articles article h3 {
+  width: 90%;
+  margin-left: 5%;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #023e6f;
+}
+#wrapper #articles article p {
+  width: 80%;
+  margin-left: 10%;
+  text-indent: 1em;
+}
+#wrapper #articles article a {
+  padding: 2px 5px;
+  margin-left: 5%;
+  color: #78301b;
+  float: left;
+  margin-top: 10px;
+}
+#wrapper #articles article a:hover {
+  background-color: #ececec;
+  border-radius: 7px;
+  }
+/* стили для страницы info*/
+#info_about_us {
+  width: 60%;
+  float: left;
+  background-color: #f7f7cd;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 1%;
+}
+#info_about_us p {
+  text-indent: 1em;
+}
+#columRight {
+  width: 36%;
+  float: right;
+  background-color: #f7f7cd;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 1%;
+  margin: 20px;
+}
+/* стили для страницы feedback */
+form {
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+  }
+form label {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+form input {
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  float: left;
+  clear: both;
+  width: 45%;
+  margin-bottom: 10px;
+  background-color: #f6f9eb;
+  cursor: pointer;
+}
+form input:focus, form textarea:focus {border: 2px solid #78301b}
+
+form textarea {
+  width: 60%;
+  float: left;
+  clear: both;
+  background-color: #f6f9eb;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0,8em;
+}
+
+form #send {
+  float: left;
+  padding: 10px;
+  background-color: #bedffa;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-variant: small-caps;
+  width: 150px;
+}
+form #send:hover {
+  background-color: #48a8f6;
+}
+/*  длс страницы статья (далее) */
+#articles {
+  background: #e2fcf8;
+  padding: 5px;
+}
+#Santorini {
+  width: 450px;
+  height: 320px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: 2px solid silver;
+  margin-bottom: 50px;
+}
+#Boats {
+  width: 280px;
+  height: 200px;border-radius: 5px;
+  border: 2px solid silver;
+  float: left;
+}
+#sea {
+  width: 280px;
+  height: 200px;border-radius: 5px;
+  border: 2px solid silver;
+  float: left;
+  margin-left: 50px;
+}
+
+/* центральный блок сайта*/
+#main_soc_block {
+  width: 100%;
+  padding: 2% 0;
+  border-bottom: 2px solid silver;
+  border-top: 2px solid silver;
+  margin: 20px 0;
+  float: left;
+  background: url('imeg/stouns.JPG') repeat-x center;
+  height: 150px;
+}
+#main_soc_block_in {
+  text-align: center;
+  padding: 1%;
+  height: 150px;
+  background-color: #bedffa;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 7px;
+  opacity: 0.7;
+  color: #78301b;
+  width: 500px;
+  max-width: 98%;
+}
+#main_soc_block_in a {
+  float: left;
+  padding: 2px;
+  background-color: #ececec;
+  border-radius: 6px;
+  border: 1px solid silver;
+  color: #78301b;
+  font-size: 0.8em;
+  margin-top: 9px;
+  font-weight: bold;
+  margin-left: 40%;
+
+}
+#main_soc_block_in a:hover {
+  background-color: #4c92fc;
+  border-radius: 10px;
+}
+
+a {
+  color: #78301b;
+  text-decoration: none;
+  transition: all.6s ease;
+  }
+
+
+a:hover {
+    color: #48a8f6;
+    text-decoration: none;
+    transition: all.6s ease;
+    }
+
+a:active {
+  color: #48a8f6
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  }
+hr {
+  display: block;
+  border: 0px;
+  height: 2px;
+  border-top: 1px solid #ccc;
+  padding: 0px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  width: 300px;
+}
+.clear {
+  clear:both
+}
+
+/* Цвет выделение текста на сайте*/
+::selection {background: #f4f9bd; color:#69696a }
+/* стили для футера*/
+footer {
+  border-top: 2px solid silver;
+  margin-top: 10px;
+  padding: 1%;
+  padding-bottom: 2%;
+  height: 400px:
+}
+footer a {
+  width: 200px;
+  color: #78301b;
+  text-decoration: none;
+  transition: all.6s ease;
+  float: right;
+  margin-left: 20px;
+}
+footer a:hover {
+  color: #48a8f6;
+  text-decoration: none;
+  transition: all.6s ease;
+}
+footer img {
+  width: 3%;
+  float: right;
+  }
+
+#page-wrap::after {
+  content: "";
+  display: block;
+}
+footer, #page-wrap::after {height: 10px}
+
+#page-wrap {
+  min-height: 94%;
+  margin-bottom: -10px;
+}
